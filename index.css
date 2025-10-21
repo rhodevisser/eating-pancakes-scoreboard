@@ -6,3 +6,19 @@ body {
     display: flex;
     justify-content: space-around;
 }
+#home-container {
+    height: 248px;
+    width: 155px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ #guest-container {
+    height: 248px;
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
