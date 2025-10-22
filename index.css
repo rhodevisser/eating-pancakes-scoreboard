@@ -31,6 +31,14 @@ button {
     margin: auto;    
 }
 
+@media screen and (max-width: 439px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    }
+}
+
 .score-screens {
     background-color: #0a0a0a;
     width: 155px;
