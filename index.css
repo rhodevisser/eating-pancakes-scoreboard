@@ -5,6 +5,13 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@media screen and (min-width: 800px) {
+    body {
+    background-image: url('Pancakes.png');
+    background-size: cover;
+    }
+}
+
 #banner-text {
     border: 2px solid #90FCF9;
     color: #D30C7B;
