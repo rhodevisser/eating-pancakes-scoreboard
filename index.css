@@ -9,6 +9,9 @@ body {
     font-family: cursed-timer;
     src: url('font/CursedTimerUlil-Aznm.ttf');
 }
+
+button {
+    cursor: pointer;
 }
 
 .container {
