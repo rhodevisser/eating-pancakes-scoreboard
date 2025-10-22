@@ -5,6 +5,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#banner-text {
+    border: 2px solid #90FCF9;
+    color: #D30C7B;
+    padding: 10px; 
+    display: inline-block;
+    width: fit-content; 
+    margin: 0 auto;
+}
+
 @font-face {
     font-family: cursed-timer;
     src: url('font/CursedTimerUlil-Aznm.ttf');
