@@ -31,6 +31,7 @@ button {
 }
 
 .container {
+    padding-top: 2%;
     display: flex;
     justify-content: space-around;
     width: 575px;
@@ -62,8 +63,12 @@ button {
     color: #D30C7B;
 }
 
+.score-screens {
+     margin-bottom: 20px;
+    }
+
 .eaters {
-    text-shadow: #D30C7B 0px 0px 2px;
+    text-shadow: #f483c1 0px 0px 2px;
 }
 
 .plus-pnt-btn {
