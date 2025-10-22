@@ -1,7 +1,10 @@
 body {
     margin: 0;
-    background-color: #D97706;
+    background-color: #480355;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 @font-face {
     font-family: cursed-timer;
     src: url('font/CursedTimerUlil-Aznm.ttf');
@@ -13,7 +16,7 @@ body {
     justify-content: space-around;
     width: 575px;
     height: 385px;
-    margin: auto;
+    margin: auto;    
 }
 
 .score-screens {
@@ -21,16 +24,34 @@ body {
     width: 155px;
     height: 120px;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-screens-score {
     font-family: cursed-timer;
+    font-size: 80px;
+    color: #D30C7B;
+}
+
+.eaters {
+    text-shadow: #D30C7B 0px 0px 2px;
 }
 
 .plus-pnt-btn {
     width: 45px;
     height: 45px;
-    border: 2px solid #9AABD8;
+    background-color: #480355;
+    border: 2px solid #90FCF9;
     border-radius: 5px;
     font-family: cursed-timer;
+    color: #8ecae6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 #home-container {
     height: 248px;
